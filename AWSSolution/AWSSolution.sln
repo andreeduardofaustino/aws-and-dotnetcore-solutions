@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - SES", "1 - SES", "{5A803AA3-B9AD-4F8B-A033-B48CC4721172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - CloudWatch", "2 - CloudWatch", "{68AA1507-DA5E-4ADF-BA96-20C01939B866}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SESWebApiCore", "SESWebApiCore\SESWebApiCore.csproj", "{06F1EC4A-AF62-42D5-BF2E-EDDDF86DEC83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSCloudWatchWebApiCore", "AWSCloudWatchWebApiCore\AWSCloudWatchWebApiCore.csproj", "{825AAF12-2B08-4121-867F-4BC7961A6B5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F1EC4A-AF62-42D5-BF2E-EDDDF86DEC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F1EC4A-AF62-42D5-BF2E-EDDDF86DEC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F1EC4A-AF62-42D5-BF2E-EDDDF86DEC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F1EC4A-AF62-42D5-BF2E-EDDDF86DEC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825AAF12-2B08-4121-867F-4BC7961A6B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825AAF12-2B08-4121-867F-4BC7961A6B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825AAF12-2B08-4121-867F-4BC7961A6B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825AAF12-2B08-4121-867F-4BC7961A6B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06F1EC4A-AF62-42D5-BF2E-EDDDF86DEC83} = {5A803AA3-B9AD-4F8B-A033-B48CC4721172}
+		{825AAF12-2B08-4121-867F-4BC7961A6B5B} = {68AA1507-DA5E-4ADF-BA96-20C01939B866}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2912A1D4-0817-40BB-9DFB-7DD157CEA9FA}
+	EndGlobalSection
+EndGlobal
